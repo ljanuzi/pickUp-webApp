@@ -11,5 +11,3 @@ Step 3.Open the file CWtes1.sql and copy everything in the file, then return to 
 Step 4. Run the Sql commands and check if the tables are created.
 
 Step 5. Type in your browser localhost/coursework to go to the login page
-
-Step 6. Username = "thanos"  password = "123".
