@@ -1,0 +1,11 @@
+
+
+RewriteEngine On
+
+RewriteRule ^home$ landing.php
+
+RewriteRule ^login$ index.php
+
+
+RewriteRule ^analytics$ analytics.php
+

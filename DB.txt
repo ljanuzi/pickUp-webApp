@@ -1,0 +1,27 @@
+CREATE TABLE users (
+username VARCHAR(16),
+fname VARCHAR(16),
+    fname VARCHAR(16),
+    lname VARCHAR(16),
+    email VARCHAR(16),
+    password VARCHAR(16),
+PRIMARY KEY (username)
+);
+
+
+
+
+CREATE TABLE isIn (
+userEmail VARCHAR(16),
+eventID VARCHAR(16),
+PRIMARY KEY (userEmail),
+    foreign key (userEmail)
+    REFERENCES user (username),
+    FOREIGN key (eventID)
+    REFERENCES events(eventID)
+);
+
+
+
+
+

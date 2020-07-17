@@ -1,0 +1,176 @@
+  /* Style the list (remove margins and bullets, etc) */
+  
+  .settings {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 100px;
+      margin-top: 90px;
+  }
+  
+  .settingsOptions {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 150%;
+  }
+  /* Style the list items */
+  
+  .settingsOptions li {
+      border: 1px solid #8f8f8f;
+      margin-top: 2px;
+      /* Prevent double borders */
+      background-color: #080808;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      text-align: left;
+      padding-left: 3%;
+      color: rgb(189, 188, 194);
+      display: block;
+      position: relative;
+  }
+  /* Add a light grey background color on hover */
+  /* .settingsOptions li:hover {
+      background-color: rgb(29, 28, 28);
+  } */
+  /* Style the close button (span) */
+  
+  .open {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      right: 0%;
+      padding: 12px 16px;
+      transform: translate(0%, -50%);
+  }
+  
+  .open:hover {
+      background: rgb(95, 95, 95);
+  }
+  
+  .settingInfo {
+      color: rgb(67, 68, 68);
+      font-size: 16px;
+  }
+  
+  .aboutOptions {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 150%;
+  }
+  
+  .aboutOptions li {
+      border: 1px solid #8f8f8f;
+      margin-top: 2px;
+      /* Prevent double borders */
+      background-color: #080808;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      text-align: left;
+      padding-left: 3%;
+      color: rgb(189, 188, 194);
+      display: block;
+      position: relative;
+      color: rgb(110, 122, 224);
+      font-weight: bold;
+  }
+  
+  .aboutInfo {
+      color: rgb(192, 199, 199);
+      font-size: 17px;
+      font-weight: normal;
+  }
+  
+  #title {
+      font-size: 19px;
+      text-align: center;
+  }
+  /* pop up fucker */
+  
+  .indexfeed {
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 900px;
+      margin-top: 5%;
+      margin-left: 20%;
+      margin-right: auto;
+      height: auto;
+      background-color: black;
+      color: white;
+  }
+  
+  .editInfo {
+      display: none;
+      position: fixed;
+      /* Stay in place */
+      z-index: 1;
+      /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      /* left: 20%; */
+      /* Full height */
+      background-color: rgba(0, 0, 0, .8);
+      /* Fallback color */
+      /* background-color: rgba(65, 65, 65, 0.3); */
+      /* Black w/ opacity */
+      padding-top: 0px;
+      overflow-Y: scroll;
+  }
+  
+  .editAccInfo {
+      background-color: transparent;
+      background-blend-mode: hard-light;
+      margin: 5% auto 15% auto;
+      /* 5% from the top, 15% from the bottom and centered */
+      width: auto;
+      /* Could be more or les, depending on screen size */
+      height: auto;
+      margin-bottom: auto;
+      margin-top: auto;
+  }
+  
+  .editInfoSection {
+      position: relative;
+      width: auto;
+      align-content: center;
+      width: 60%;
+      margin: auto;
+      margin-top: 0%;
+      background-color: rgba(0, 0, 0, 1);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #0077CC;
+      box-shadow: 5px 8px 8px rgba(0, 0, 0, .3);
+      transition: all 3s;
+  }
+  
+  .editInfoSection div input {
+      width: 50%;
+      height: auto;
+      border: none;
+      padding: 5px 10px;
+      font-family: arial;
+      resize: none;
+      outline: none;
+      border-bottom: 2px solid #0077CC;
+      font-family: 'Poppins';
+      font-size: 15px;
+      background-color: transparent;
+      color: white;
+  }
+  
+  .editInfoSection:hover {
+      /* background-color:rgba(10, 53, 53,0.5); */
+      transition: all .38s;
+      /* -webkit-animation: swing .3s ease;
+    animation: swing .3s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1; */
+  }

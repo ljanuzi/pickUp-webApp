@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    color:white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+    color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 1000;
+    color: white;
+    background-color: rgba(39, 59, 122);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    opacity: .7;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+
+button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    opacity: 1;
+}
+
+#signupButton:hover {
+    background-color: rgb(117, 35, 138);
+    box-shadow: 0px 15px 20px rgba(229, 46, 220, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    opacity: 1;
+}
+
+.greenbtn {
+    font-size: 9px;
+    margin-left: 7%;
+    margin-top:0px;
+    height: 40px;
+    text-align: center;
+}
+
+.navatar {
+    height: 50px;
+    margin-top: 2%;
+}
+
+.navatar:hover {
+    cursor: pointer;
+    opacity: .7;
+    color: #fff;
+    /* transform: translateY(-5px); */
+}
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Center the image and position the close button */
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.container .uname {
+    font-family: Poppins;
+    background-color: transparent;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.container .password {
+    font-family: Poppins;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.container .signupemail {
+    font-family: Poppins;
+    width: auto;
+    background-color: transparent;
+    border-radius: 10px;
+    color:white;
+}
+
+.container .logsubmit {
+    font-family: Poppins;
+}
+
+
+/* span.psw {
+  float: right;
+  padding-top: 16px;
+} */
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: grey;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, .95);
+    /* Black w/ opacity */
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+
+/* Modal Content/Box */
+
+.modal-content {
+    background-color: transparent;
+    background-blend-mode: hard-light;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    width: 50%;
+    /* Could be more or les, depending on screen size */
+    height: 100px;
+    margin-bottom: 10%;
+}
+
+.signupclass {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: grey;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.95);
+    /* Black w/ opacity */
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: rgb(218, 93, 76);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.Custom_Cancel>.sa-button-container>.cancel {
+    font-family: 'Poppins';
+    background-color: #DD6B55;
+    border-color: green;
+    border-radius: 24px;
+    width: 150px;
+}
+
+.Custom_Cancel>.sa-button-container>.cancel:hover {
+    background-color: red;
+    border-color: #DD6B55;
+}
+
+.Custom_Cancel {
+    background-color: lightgrey !important;
+}

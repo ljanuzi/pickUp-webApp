@@ -1,0 +1,62 @@
+.index-settings {
+    margin-top: 110px;
+    margin-left: 250px;
+    ;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins';
+    
+}
+
+.collapsible {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+  
+    border-radius: 1px;
+    font-size: 20px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    font-family: 'Poppins';
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #0f0f0f;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+}
+
+#innerButton {
+    background-color: rgb(122, 120, 120);
+}
+
+.infoBoxEmail {
+    padding: 4px;
+    background-color: rgb(75, 73, 73);
+}
+
+.infoBoxField {
+    background-color: rgb(75, 73, 73);
+}
+
+.infoBoxName {
+    background-color: rgb(75, 73, 73);
+}
+
+.infoBoxLegend {
+    font-size: 15px;
+    font-style: italic;
+}
